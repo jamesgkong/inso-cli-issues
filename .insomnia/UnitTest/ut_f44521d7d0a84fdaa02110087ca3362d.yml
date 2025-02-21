@@ -1,0 +1,14 @@
+_id: ut_f44521d7d0a84fdaa02110087ca3362d
+type: UnitTest
+parentId: uts_13b23486004e47dab71229d2f6c54011
+modified: 1740134379299
+created: 1740133723176
+requestId: req_27c10c77b26c4f6491325c053fb5871e
+name: expect client-id and secret are default values
+code: |-
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+  const headers = body.headers;
+  expect(headers).to.have.property('Client-Id', "replace-id");
+  expect(headers).to.have.property('Client-Secret', "replace-secret");
+metaSortKey: -1740134019860.5
