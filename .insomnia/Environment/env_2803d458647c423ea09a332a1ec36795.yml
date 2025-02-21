@@ -1,20 +1,37 @@
 _id: env_2803d458647c423ea09a332a1ec36795
 type: Environment
 parentId: env_0e2fd838040abfdf712441e5e2167709ef137145
-modified: 1740139149736
+modified: 1740139285351
 created: 1740133626394
 name: Test
 data:
   client-id: replace-id
   client-secret: replace-secret
-  int-key: 1
-dataPropertyOrder:
-  "&":
-    - client-id
-    - client-secret
-    - int-key
+  int-key: "1"
+  quotes-within-quotes: '"some-text"'
+dataPropertyOrder: null
 color: null
 isPrivate: false
 metaSortKey: 1740133626394
-environmentType: json
-kvPairData: []
+environmentType: kv
+kvPairData:
+  - id: envPair_f194644aa13242f3a4c9d8c850147612
+    name: client-id
+    value: replace-id
+    type: str
+    enabled: true
+  - id: envPair_cce929ef17b54309a7b0294a5eaacb62
+    name: client-secret
+    value: replace-secret
+    type: str
+    enabled: true
+  - id: envPair_c5b482d72e0b4c75b80b9dd561512215
+    name: int-key
+    value: "1"
+    type: str
+    enabled: true
+  - id: envPair_328791dd965c4d92b0a9015e224dc430
+    name: quotes-within-quotes
+    value: '"some-text"'
+    type: str
+    enabled: true
