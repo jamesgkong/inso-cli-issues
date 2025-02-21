@@ -1,7 +1,7 @@
 _id: env_2803d458647c423ea09a332a1ec36795
 type: Environment
 parentId: env_0e2fd838040abfdf712441e5e2167709ef137145
-modified: 1740135316695
+modified: 1740138752180
 created: 1740133626394
 name: Test
 data:
@@ -11,15 +11,5 @@ dataPropertyOrder: null
 color: null
 isPrivate: false
 metaSortKey: 1740133626394
-environmentType: kv
-kvPairData:
-  - id: envPair_be8c99713f904cf4bdc2b0165c52a37f
-    name: client-id
-    value: replace-id
-    type: str
-    enabled: true
-  - id: envPair_cc827fbad75e4b46b8f965c37cefaffd
-    name: client-secret
-    value: replace-secret
-    type: str
-    enabled: true
+environmentType: json
+kvPairData: []
