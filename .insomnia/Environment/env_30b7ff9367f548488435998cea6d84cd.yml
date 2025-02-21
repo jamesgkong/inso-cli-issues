@@ -1,0 +1,22 @@
+_id: env_30b7ff9367f548488435998cea6d84cd
+type: Environment
+parentId: env_0e2fd838040abfdf712441e5e2167709ef137145
+modified: 1740139536725
+created: 1740139512711
+name: JSON Env
+data:
+  client-id: replace-id
+  client-secret: replace-secret
+  int-key: "1"
+  quotes-within-quotes: '"some-text"'
+dataPropertyOrder:
+  "&":
+    - client-id
+    - client-secret
+    - int-key
+    - quotes-within-quotes
+color: null
+isPrivate: false
+metaSortKey: 1740139512711
+environmentType: json
+kvPairData: []
