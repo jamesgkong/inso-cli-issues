@@ -1,17 +1,16 @@
 _id: env_48db8605e1844d1f87e5362cbeb840d5
 type: Environment
 parentId: env_0e2fd838040abfdf712441e5e2167709ef137145
-modified: 1740139579731
+modified: 1740139983660
 created: 1740139541726
-name: Key Value pair Env
+name: kv-env
 data:
   client-id: some-value
   client-secret: some-value
-  "": ""
 dataPropertyOrder: null
 color: null
 isPrivate: false
-metaSortKey: 1740139541726
+metaSortKey: 1740139527218.5
 environmentType: kv
 kvPairData:
   - id: envPair_59be06a3797b434e8ce81ac65cf6c04c
@@ -22,10 +21,5 @@ kvPairData:
   - id: envPair_2fd097bb6b6947e8877ab31ea623cc5b
     name: client-secret
     value: some-value
-    type: str
-    enabled: true
-  - id: envPair_d66f09471a144f95ac7b7e918dcca943
-    name: ""
-    value: ""
     type: str
     enabled: true
