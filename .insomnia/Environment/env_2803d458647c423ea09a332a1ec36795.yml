@@ -1,7 +1,7 @@
 _id: env_2803d458647c423ea09a332a1ec36795
 type: Environment
 parentId: env_0e2fd838040abfdf712441e5e2167709ef137145
-modified: 1740139563201
+modified: 1740400119867
 created: 1740133626394
 name: Test
 data:
@@ -9,6 +9,8 @@ data:
   client-secret: replace-secret
   int-key: "1"
   quotes-within-quotes: '"some-text"'
+  bearerToken: "{% response 'body', 'req_d0f9e45390684835ac187cdf361e53c2',
+    'b64::JC5vcmlnaW4=::46b', 'always', 60 %}"
 dataPropertyOrder: null
 color: null
 isPrivate: false
@@ -33,5 +35,11 @@ kvPairData:
   - id: envPair_8af7423465b04e5daebfb2b53f96ae5c
     name: quotes-within-quotes
     value: '"some-text"'
+    type: str
+    enabled: true
+  - id: envPair_b170ef594f0444999e0dc23a656e9bce
+    name: bearerToken
+    value: "{% response 'body', 'req_d0f9e45390684835ac187cdf361e53c2',
+      'b64::JC5vcmlnaW4=::46b', 'always', 60 %}"
     type: str
     enabled: true

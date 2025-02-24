@@ -1,7 +1,7 @@
 _id: req_27c10c77b26c4f6491325c053fb5871e
 type: Request
 parentId: wrk_e28c9877518f4a618887c31428c8840f
-modified: 1740133671202
+modified: 1740400019538
 created: 1740133599823
 url: https://httpbin.org/anything
 name: POST client-id and secret
@@ -23,7 +23,9 @@ headers:
     value: "{{ _['client-secret'] }}"
     description: ""
     disabled: false
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.bearerToken }}"
 preRequestScript: null
 metaSortKey: -1740133599823
 isPrivate: false

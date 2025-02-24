@@ -1,0 +1,42 @@
+_id: req_d0f9e45390684835ac187cdf361e53c2
+type: Request
+parentId: wrk_e28c9877518f4a618887c31428c8840f
+modified: 1740399976317
+created: 1740399845937
+url: https://httpbin.org/anything
+name: GET Auth
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_e9a69f291ee74d18ac4c18d75b24786a
+      name: client-id
+      value: "{{ _['client-id'] }}"
+      description: ""
+      disabled: false
+    - id: pair_08efdb6e0e7644469df63f8c4746c8bc
+      name: client-secret
+      value: "{{ _['client-secret'] }}"
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_cf2b342a2de94ae287bb540ba4847a1f
+  - name: User-Agent
+    value: insomnia/10.3.1
+    id: pair_5510f443c24e4318b1d34363d3ffe211
+authentication: {}
+preRequestScript: null
+metaSortKey: -1740131172058.5
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
